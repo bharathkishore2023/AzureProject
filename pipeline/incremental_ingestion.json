@@ -68,7 +68,8 @@
 		],
 		"parameters": {
 			"schema": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "bronze"
 			},
 			"table": {
 				"type": "string"
