@@ -61,15 +61,20 @@
 					},
 					"dataset": {
 						"referenceName": "Json_Dynamic",
-						"type": "DatasetReference"
-					}
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "bronze",
+							"folder": "cdc",
+							"file": "cdc.json"
+						}
+					},
+					"firstRowOnly": false
 				}
 			}
 		],
 		"parameters": {
 			"schema": {
-				"type": "string",
-				"defaultValue": "bronze"
+				"type": "string"
 			},
 			"table": {
 				"type": "string"
